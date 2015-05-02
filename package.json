@@ -1,0 +1,29 @@
+{
+  "name": "turbo-batman",
+  "version": "1.0.0",
+  "description": "this is just a test repository",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mithyB/turbo-batman.git"
+  },
+  "author": "mithyB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mithyB/turbo-batman/issues"
+  },
+  "homepage": "https://github.com/mithyB/turbo-batman",
+  "dependencies": {
+    "bower": "^1.4.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-wiredep": "^2.0.0"
+  },
+  "keywords": [
+    "test"
+  ]
+}
