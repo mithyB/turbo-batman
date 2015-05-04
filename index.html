@@ -12,10 +12,22 @@
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/threejs/build/three.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
         <!-- endbower -->
 
         <div ng-include="src='shell/shell.html'"></div>
 
+        <!-- app -->
         <script src="app.js"></script>
+
+        <!-- routes -->
+        <script src="routes/routes.js"></script>
+        <script src="routes/routes.config.js"></script>
+
+        <!-- controllers -->
+        <script src="controllers/shell.js"></script>
+        <script src="controllers/main.js"></script>
+        <script src="controllers/threejs.js"></script>
     </body>
 </html>
