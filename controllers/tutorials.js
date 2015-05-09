@@ -12,7 +12,7 @@
         $.get('data/tutorial.md').then(success, failed);
 
         function success(data) {
-            vm.tutorial = markdown.toHTML(data);
+            vm.tutorial = marked(data);
             $scope.$apply();
         }
 

@@ -12,7 +12,7 @@
         $.get('README.md').then(success, failed);
 
         function success(data) {
-            vm.readme = markdown.toHTML(data);
+            vm.readme = marked(data);
             $scope.$apply();
 
         }
