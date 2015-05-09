@@ -24,7 +24,7 @@ Execute the command `git pull` to be prompted to enter your GitHub credentials. 
 #Set up Visual Studio Community
 Viusal Studio Community is a free version of Visual Studio. Click [here](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) to download.
 The installation itself is not demanding. However creating a new web project might be tricky if you're new to the Visual Studio Development Environment.
-To create a new web page chose `FILE > New > Web Site...` from the menu-bar. Chose 'ASP.NET Empty Web Page' and don't forget to change the project path to your development directory.
+To create a new web page chose `FILE > New > Web Site...` from the menu-bar. Chose 'ASP.NET Empty Web Site' and don't forget to change the project path to your development directory.
 Once this is done you are basically ready to go. Add an `index.html` file and start your local web server by pressing the play button on the menu-bar to check if it's working.
 
 #Set up Node.js
@@ -48,10 +48,17 @@ The `--save` parameter saves the package and its dependencies to the bower.json.
 TBD
 
 ##Git merge gh-pages
+If your repository contains a web page and you want to publish it on [GitHub Pages](https://pages.github.com/) you need to create a branch called `gh-pages` in your repository.
+To keep your master branch and your gh-pages branch in sync, use the following command:
 ```javascript
 git checkout gh-pages // go to the gh-pages branch
 git merge master // bring gh-pages up to date with master
 git push origin gh-pages // commit the changes
 git checkout master // return to the master branch
 ```
-source: http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/
+_Source: http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/_
+
+You can now access your web page via `<username>.github.io/<repo-name>`.
+
+>**Pro-Tip**
+>Create a repository called `<username>.github.io` (replace <username> with your username) to create a home-page which can be accessed by `<username>.github.io`.
