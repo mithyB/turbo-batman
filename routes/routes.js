@@ -15,9 +15,16 @@
                 controller: 'threejs as vm',
                 templateUrl: 'templates/threejs.html'
             }
+        },
+        {
+            url: '/tutorials',
+            config: {
+                controller: 'tutorials as vm',
+                templateUrl: 'templates/tutorials.html'
+            }
         }
     ];
 
     ng.module(moduleId).constant(valueId, value);
 
-})('turbo-batman', 'routes', angular)
+})(appName, 'routes', angular)

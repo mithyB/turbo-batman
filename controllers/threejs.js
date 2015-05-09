@@ -112,4 +112,4 @@
         return mesh;
     }
 
-})('turbo-batman', 'threejs', angular);
+})(appName, 'threejs', angular);

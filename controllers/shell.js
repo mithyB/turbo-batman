@@ -14,4 +14,4 @@
         };
     }
 
-})('turbo-batman', 'shell', angular);
+})(appName, 'shell', angular);

@@ -6,7 +6,15 @@
     function controller() {
         var vm = this;
 
-        
+        $.get('README.md').then(success, failed);
+
+        function success(data) {
+            vm.readme = markdown.toHTML(data);
+        }
+
+        function failed(error) {
+            console.log(error);
+        }
     }
 
-})('turbo-batman', 'main', angular);
+})(appName, 'main', angular);

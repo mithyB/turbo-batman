@@ -13,4 +13,4 @@
         $routeProvider.otherwise({ redirectTo: '/' });
     }
 
-})('turbo-batman', angular)
+})(appName, angular)

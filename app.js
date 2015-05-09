@@ -1,4 +1,6 @@
-﻿(function (moduleId, ng) {
+﻿var appName = 'turbo-batman';
+
+(function (moduleId, ng) {
     'use strict';
 
     var app = ng.module(moduleId, [
@@ -19,4 +21,4 @@
         $route.reload();
     }
 
-})('turbo-batman', angular);
+})(appName, angular);

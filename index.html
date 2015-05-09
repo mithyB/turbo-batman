@@ -5,7 +5,12 @@
 
         <!-- bower:css -->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
         <!-- endbower -->
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/sticky-footer.css" />
+
     </head>
     <body>        
         <!-- bower:js -->
@@ -15,6 +20,8 @@
         <script src="bower_components/threejs/build/three.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
         <!-- endbower -->
+
+        <script src="bower_components/markdown/lib/markdown.js"></script>
 
         <div ng-include="src='shell/shell.html'"></div>
 
@@ -28,6 +35,10 @@
         <!-- controllers -->
         <script src="controllers/shell.js"></script>
         <script src="controllers/main.js"></script>
-        <script src="controllers/threejs.js"></script>
+        <script src="controllers/threejs.js"></script>    
+        <script src="controllers/tutorials.js"></script>      
+        
+        <!-- controllers -->
+        <script src="filters/unsafe.js"></script>
     </body>
 </html>
