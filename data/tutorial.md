@@ -60,4 +60,4 @@ _Source: http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/_
 
 You can now access your web page via `<username>.github.io/<repo-name>`.
 
->**Pro-Tip:** Create a repository called `<username>.github.io` (replace [<]username[>] with your username) to create a home-page which can be accessed by `<username>.github.io`.
+>**Pro-Tip:** Create a repository called `<username>.github.io` (replace \<username\> with your username) to create a home-page which can be accessed by `<username>.github.io`.
