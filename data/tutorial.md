@@ -5,19 +5,19 @@ This tutorial will cover the basics on how to set up a development environment f
 * Node.js
 
 ###Contents
-* Set up Git and GitHub
-* Git commands
-	* Merge gh-pages
-* Set up Visual Studio Community
-* Set up Node.js
-	* Bower
-	* Grunt
-* Angular
-	* Creating a SPA
-	* More Angular
-* Bootstrap
-	* Header
-	* Footer (Sticky Footer)
+* [Set up Git and GitHub](#set-up-git-and-github)
+* [Git commands](#git-commands)
+	* [Merge gh-pages](#merge-gh-pages)
+* [Set up Visual Studio Community](#set-up-visual-studio-community)
+* [Set up Node.js](#set-up-node.js)
+	* [Bower](#bower)
+	* [Grunt](#grunt)
+* [Angular](#angular)
+	* [Creating a SPA](#creating-a-spa)
+	* [More Angular](#more-angular)
+* [Bootstrap](#bootstrap)
+	* [Header](#header)
+	* [Footer (Sticky Footer)](#footer-sticky-footer)
 
 
 #Set up Git and GitHub
@@ -398,6 +398,10 @@ First create the `header.html` and `footer.html` files in the `shell` folder if 
 ```
 With this template you already have a nice looking header. 
 If you want to change it a bit (and I'm sure you do) I recommend checking out the [Bootstrap docs](http://getbootstrap.com/components/#navbar).
+To make it look good on mobile devices you need to tell the browser the device with. You can do this by adding the following element to your index.html inside the HEAD-tag:
+```
+<meta name="viewport" content="width=device-width">
+```
 Now, let's move on the footer.
 
 ##Footer (Sticky Footer)
