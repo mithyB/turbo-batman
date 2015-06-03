@@ -17,7 +17,7 @@ This tutorial will cover the basics on how to set up a development environment f
 	* [More Angular](#want-more-angular-)
 * [Bootstrap](#bootstrap)
 	* [Header](#header)
-	* [Footer (Sticky Footer)](#footer-sticky-footer)
+	* [Footer (Sticky Footer)](#footer-sticky-footer-)
 
 
 #Set up Git and GitHub
